@@ -20,13 +20,13 @@ const itemsSchema =new mongoose.Schema({ // created schema itemsSchema
 const Item= mongoose.model("Item",itemsSchema); // created model Item with collection name items
 
 const read = new Item({ // value of item 1
-  name:"Read Np"
+  name:"Click on the check box to delete item"
 });
 const eat = new Item({ // value of item 2
-  name:"Breakfast"
+  name:"Type in New items to make a list"
 });
 const bath = new Item({ // value of item 2
-  name:"Take bath"
+  name:"Click on + to add list."
 });
 
 const defaultItems = [read,eat,bath];
